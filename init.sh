@@ -15,7 +15,7 @@ cd public && mkdir -p js css img && cd ..
 
 echo 'Create config files for nginx and unicorn'
 
-cp /home/stepic/nginx.conf etc/nginx.conf && touch etc/gunicorn.conf
+cp /~/stepic/nginx.conf etc/nginx.conf && touch etc/gunicorn.conf
 
 echo 'Create links, remove default config from /etc/nginx/sites-enabled/default'
 
