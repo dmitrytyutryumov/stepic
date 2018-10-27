@@ -7,11 +7,11 @@
 # sudo /etc/init.d/mysql start
 echo 'Creating directories'
 
-mkdir -p box/web
-
-cd web && mkdir -p uploads public etc
-
-cd public && mkdir -p js css img && cd ..
+mkdir -p /home/box/web/uploads
+mkdir -p /home/box/web/etc
+mkdir -p /home/box/web/public/js
+mkdir -p /home/box/web/public/css
+mkdir -p /home/box/web/public/img
 
 echo 'Create config files for nginx and unicorn'
 
